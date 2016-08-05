@@ -8,6 +8,7 @@ a {
 	text-decoration:none;
 	color:#fff;
 }
+/*全局结束*/
 
 /*header部分*/
 #header {
@@ -75,6 +76,7 @@ a {
 .icon-group img {
 	margin-right:20px;
 }
+/*header部分结束*/
 
 /*banner部分*/
 #banner {
@@ -133,3 +135,5 @@ a {
 	margin:72px auto;
 
 }
+
+/*banner部分结束*/
