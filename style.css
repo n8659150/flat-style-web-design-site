@@ -8,6 +8,11 @@ a {
 	text-decoration:none;
 	color:#fff;
 }
+
+html {
+	font-family:'微软雅黑';
+}
+
 /*全局结束*/
 
 /*header部分*/
@@ -18,7 +23,7 @@ a {
 }
 
 .header-wrapper {
-	width:60%;
+	width:70%;
 	margin:0 auto;
 	overflow:hidden;
 }
@@ -36,6 +41,10 @@ a {
 	font-size:0;
 	clear:both;
 	height:0;
+}
+
+#header ul {
+	float:right;
 }
 
 #header ul li {
@@ -57,7 +66,6 @@ a {
 }
 
 #header ul li a {
-	font-family: '微软雅黑';
 	font-size:13px;
 	display:block;
 }
@@ -68,13 +76,16 @@ a {
 
 
 .icon-group {
-	float:left;
+	float:right;
 	height:90px;
 	line-height:100px;
 }
 
 .icon-group img {
 	margin-right:20px;
+}
+.icon-group img:last-child {
+	margin-right:0;
 }
 /*header部分结束*/
 
@@ -94,7 +105,6 @@ a {
 
 #banner h3 {
 	color:#fff;
-	font-family: '微软雅黑';
 	font-size:32px;
 	display:block;
 	font-weight:100;
@@ -106,19 +116,16 @@ a {
 }
 
 #banner span {
-	font-size:9px;
+	font-size:10px;
 	color:#fff;
-	font-family: '微软雅黑';
 	border-bottom:1px solid #f8f8f8;
 	width: 411px;
 	margin: 0 auto;
     display: inherit;
     text-align: center;
-    padding-bottom:20px;
-    line-height:0.55;
+    padding-bottom:16px;
 }
 #view-more {
-	font-family: '微软雅黑';
 	width:142px;
 	height:32px;
 	color:#fff;
@@ -137,3 +144,82 @@ a {
 }
 
 /*banner部分结束*/
+
+/*内容部分*/
+.col-3 {
+	overflow:hidden;
+	position:relative;
+}
+
+.col-1 {
+	width:33.33%;
+	width:-moz-calc(100% / 3);
+    width:-webkit-calc(100% / 3);
+    width:calc(100% / 3);
+	float:left;
+}
+
+.green {
+	background-color:#0dbd74;
+	height:330px;
+	padding-top:120px;
+}
+
+.purple {
+	background-color:#862ad6;
+	height:330px;
+	padding-top:120px;
+}
+
+.white {
+	background-color: #f0f0f0;
+	height:355px;
+	padding-top:95px;
+}
+
+.red {
+	background-color:#f0284e;
+	height:450px;
+}
+
+.img-center {
+	display:block;
+	margin:0 auto;
+}
+
+.col-1 span {
+	color:#fff;
+	font-size:21px;
+	display:block;
+	text-align: center;
+	margin-top:12px;
+}
+
+.col-1 hr {
+	width:174px;
+	height:0px;
+	border:0px;
+	border-top:1px solid #fff;
+	color:#fff;
+	background-color:#fff;
+	margin:12px auto;
+}
+
+.desc-text {
+	font-size:9px;
+	color:#fff;
+	text-align: center;
+	width: 49%;
+    margin: 0 auto;
+    word-break: break-word;
+    line-height: 1.7;
+}
+
+.desc-text-large {
+    font-size: 13px;
+    color: #969696;
+    text-align: left;
+    margin: 20px auto 0 auto;
+    width: 66%;
+}
+/*内容部分结束*/
